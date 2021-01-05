@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorBack" format="color" />
+    <attr name="colorBackItem" format="color" />
+    <attr name="colorMainText" format="color" />
+    <attr name="colorSecondText" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="colorAccent2" format="color" />
+</resources>
