@@ -8,6 +8,7 @@
         <item name="colorSecondText">@color/colorSecondText</item>
         <item name="colorAccent">@color/colorAccent</item>
 
+        <item name="colorPrimary">@color/colorBack</item>
         <item name="colorAccent2">@color/colorAccent2</item>
         <item name="colorPrimaryDark">@color/colorBack</item>
     </style>
