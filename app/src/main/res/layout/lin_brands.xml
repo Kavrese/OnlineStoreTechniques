@@ -48,7 +48,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cat_canion"
+                android:id="@+id/cat_xiami"
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
@@ -58,12 +58,12 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="15dp"
-                    app:srcCompat="@drawable/canon" />
+                    android:padding="18dp"
+                    app:srcCompat="@drawable/xiaomi" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cat_nokia"
+                android:id="@+id/cat_huawei"
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
@@ -74,7 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:padding="15dp"
-                    app:srcCompat="@drawable/nokia" />
+                    app:srcCompat="@drawable/huawei" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -93,7 +93,22 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cat_xbox"
+                android:id="@+id/cat_honor"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    app:srcCompat="@drawable/honor" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cat_nokia"
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 app:cardCornerRadius="20dp"
@@ -103,7 +118,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:padding="15dp"
-                    app:srcCompat="@drawable/xbox" />
+                    app:srcCompat="@drawable/nokia" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
     </HorizontalScrollView>

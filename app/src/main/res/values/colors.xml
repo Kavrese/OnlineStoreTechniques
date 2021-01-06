@@ -15,5 +15,8 @@
     <color name="colorRed">#D6190B</color>
     <color name="colorGrey">#777777</color>
     <color name="colorPurple">#9C27B0</color>
-    <color name="colorYellow">#FFC107</color>
+    <color name="colorPink">#C96ADA</color>
+    <color name="colorYellow">#FFCD36</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="colorGreen">#4CAF50</color>
 </resources>

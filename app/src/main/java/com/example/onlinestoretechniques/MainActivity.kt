@@ -2,6 +2,7 @@ package com.example.onlinestoretechniques
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.onlinestoretechniques.model.ModelProduct
@@ -17,10 +18,18 @@ class MainActivity : AppCompatActivity() {
         rec_hot.apply{
             layoutManager = LinearLayoutManager(this@MainActivity, LinearLayoutManager.HORIZONTAL, false)
         }
-        updateAdapterRec(rec_hot, AdapterProduct(list_hot, R.layout.item_hit))
+        updateAdapterRec()
+        setFragment(FragmentRecommendation())
     }
 
-    private fun updateAdapterRec(rec: RecyclerView, adapter: AdapterProduct){
-        rec.adapter = adapter
+    private fun updateAdapterRec(){
+        rec_hot.adapter = AdapterProduct(list_hot, R.layout.item_hit)
+    }
+
+    private fun setFragment(fragment: Fragment){
+        val fr = supportFragmentManager
+        val tr = fr.beginTransaction()
+        tr.add(R.id.frame, fragment)
+        tr.commit()
     }
 }

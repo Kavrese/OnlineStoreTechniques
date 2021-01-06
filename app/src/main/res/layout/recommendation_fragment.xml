@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lin_work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="What Do You Need To Work ?"
+                android:textColor="?attr/colorMainText"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_work"
+                android:layout_width="match_parent"
+                android:layout_height="210dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_fun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="What Do You Need To Fun ?"
+                android:textColor="?attr/colorMainText"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_fun"
+                android:layout_width="match_parent"
+                android:layout_height="210dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_relax"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="What Do You Need To Relax ?"
+                android:textColor="?attr/colorMainText"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_relax"
+                android:layout_width="match_parent"
+                android:layout_height="210dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_best"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="Best Product"
+                android:textColor="?attr/colorMainText"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec_best"
+                android:layout_width="match_parent"
+                android:layout_height="210dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
