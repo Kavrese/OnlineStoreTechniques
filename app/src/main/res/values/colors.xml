@@ -4,10 +4,16 @@
     <color name="colorBackItem">#FFF</color>
     <color name="colorMainText">#15181E</color>
     <color name="colorSecondText">#ADADAD</color>
-    <color name="colorGrey">#E4E4E4</color>
+    <color name="colorAlphaGrey">#E4E4E4</color>
     <color name="colorAccent">#335DB7</color>
     <color name="colorAccent2">#000</color>
     <color name="colorAlpha">#00000000</color>
 
-
+    <color name="colorBlue">#3F51B5</color>
+    <color name="colorDark">#000000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorRed">#D6190B</color>
+    <color name="colorGrey">#777777</color>
+    <color name="colorPurple">#9C27B0</color>
+    <color name="colorYellow">#FFC107</color>
 </resources>

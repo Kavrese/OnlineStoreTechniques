@@ -7,5 +7,5 @@ class ModelProduct (
         var price: String? = null,
         var description: String = "Отсутсвует",
         var photos: List<String> = arrayListOf("empty"),
-        var tx: String = "Отсутсвует"
+        var colors: List<Int> = arrayListOf(0)
 )

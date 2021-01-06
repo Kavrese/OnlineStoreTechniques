@@ -153,13 +153,11 @@
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/lin_need_for_work"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:orientation="horizontal">
+                android:layout_height="match_parent">
 
-            </LinearLayout>
+            </FrameLayout>
         </LinearLayout>
     </ScrollView>
 

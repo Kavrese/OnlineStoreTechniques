@@ -19,9 +19,9 @@
                 android:id="@+id/card_phones"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:backgroundTint="?attr/colorBackItem"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="?attr/colorBackItem"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -36,9 +36,9 @@
                     android:paddingBottom="5dp">
 
                     <androidx.cardview.widget.CardView
-                        android:backgroundTint="?attr/colorBack"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:backgroundTint="?attr/colorBack"
                         app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
@@ -76,8 +76,8 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_tablets"
                 android:layout_width="match_parent"
-                android:backgroundTint="?attr/colorBackItem"
                 android:layout_height="match_parent"
+                android:backgroundTint="?attr/colorBackItem"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -130,10 +130,10 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_laptop"
                 android:layout_width="match_parent"
-                android:backgroundTint="?attr/colorBackItem"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="?attr/colorBackItem"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -150,8 +150,8 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:cardCornerRadius="20dp"
                         android:backgroundTint="?attr/colorBack"
+                        app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
                         <LinearLayout
@@ -231,6 +231,61 @@
                         android:layout_marginRight="8dp"
                         android:layout_weight="1"
                         android:text="Tv"
+                        android:textColor="?attr/colorMainText"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="?attr/colorBackItem"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="?attr/colorBack"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBack"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:padding="10dp"
+                                app:srcCompat="@drawable/headset" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:text="Headphones"
                         android:textColor="?attr/colorMainText"
                         android:textSize="14sp" />
 
