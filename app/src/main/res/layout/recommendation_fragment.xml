@@ -73,7 +73,7 @@
                 android:layout_marginBottom="5dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="15dp"
-                android:text="What Do You Need To Relax ?"
+                android:text="What Do You Need To Recreation ?"
                 android:textColor="?attr/colorMainText"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -98,7 +98,7 @@
                 android:gravity="center"
                 android:paddingLeft="10dp"
                 android:paddingTop="15dp"
-                android:text="Best Product"
+                android:text="Best Products"
                 android:textColor="?attr/colorMainText"
                 android:textSize="24sp"
                 android:textStyle="bold" />

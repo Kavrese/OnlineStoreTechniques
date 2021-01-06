@@ -22,6 +22,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -78,6 +80,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -134,6 +138,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -188,6 +194,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -243,6 +251,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -298,6 +308,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -314,8 +326,8 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:cardCornerRadius="20dp"
                         android:backgroundTint="?attr/colorBack"
+                        app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
                         <LinearLayout
@@ -348,10 +360,12 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_watch"
-                android:backgroundTint="?attr/colorBackItem"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -368,8 +382,8 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:cardCornerRadius="20dp"
                         android:backgroundTint="?attr/colorBack"
+                        app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
                         <LinearLayout
@@ -404,10 +418,12 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_mice"
-                android:backgroundTint="?attr/colorBackItem"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -424,8 +440,8 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:cardCornerRadius="20dp"
                         android:backgroundTint="?attr/colorBack"
+                        app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
                         <LinearLayout
@@ -459,10 +475,12 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_keyboards"
-                android:backgroundTint="?attr/colorBackItem"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
+                android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -479,8 +497,8 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:cardCornerRadius="20dp"
                         android:backgroundTint="?attr/colorBack"
+                        app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
                         <LinearLayout
@@ -518,6 +536,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="?attr/colorBackItem"
+                android:clickable="false"
+                android:onClick="clickToCategory"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
 
@@ -534,8 +554,8 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        app:cardCornerRadius="20dp"
                         android:backgroundTint="?attr/colorBack"
+                        app:cardCornerRadius="20dp"
                         app:cardElevation="0dp">
 
                         <LinearLayout

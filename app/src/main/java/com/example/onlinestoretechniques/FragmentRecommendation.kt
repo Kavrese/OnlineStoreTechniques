@@ -25,6 +25,8 @@ class FragmentRecommendation: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         listWork = DataProducts().listLaptops.toMutableList()
+        listFun = DataProducts().listTablets.toMutableList()
+        listRelax = DataProducts().listCamera.toMutableList()
         rec_work.apply {
             layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         }
@@ -33,7 +35,7 @@ class FragmentRecommendation: Fragment() {
             layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         }
 
-        rec_work.apply {
+        rec_relax.apply {
             layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         }
 
