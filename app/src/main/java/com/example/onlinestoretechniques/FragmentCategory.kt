@@ -27,5 +27,10 @@ class FragmentCategory(private val nameCategory: String, private val listCategor
             layoutManager = GridLayoutManager(requireContext(), 2, RecyclerView.VERTICAL, false)
             adapter = AdapterProduct(listCategory, R.layout.item_small)
         }
+        if (listCategory.size == 0) {
+            text_no.visibility = View.VISIBLE
+        }else{
+            text_no.visibility = View.INVISIBLE
+        }
     }
 }

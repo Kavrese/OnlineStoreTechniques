@@ -31,7 +31,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rec_work"
                 android:layout_width="match_parent"
-                android:layout_height="210dp" />
+                android:layout_height="240dp" />
 
         </LinearLayout>
 
@@ -56,7 +56,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rec_fun"
                 android:layout_width="match_parent"
-                android:layout_height="210dp" />
+                android:layout_height="240dp" />
 
         </LinearLayout>
 
@@ -81,7 +81,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rec_relax"
                 android:layout_width="match_parent"
-                android:layout_height="210dp" />
+                android:layout_height="240dp" />
 
         </LinearLayout>
 
@@ -106,7 +106,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rec_best"
                 android:layout_width="match_parent"
-                android:layout_height="210dp" />
+                android:layout_height="240dp" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

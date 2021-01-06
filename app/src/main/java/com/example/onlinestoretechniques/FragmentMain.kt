@@ -6,7 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.onlinestoretechniques.model.ModelProductBrand
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.lin_brands.*
 import kotlinx.android.synthetic.main.lin_category.*
 
 class FragmentMain: Fragment(){
@@ -28,6 +30,31 @@ class FragmentMain: Fragment(){
         setFragment(FragmentRecommendation())
 
         initClickCategory()
+        initClickBrand()
+    }
+
+    private fun initClickBrand() {
+        cat_apple.setOnClickListener {
+            setFragment(FragmentBrand("Apple", ModelProductBrand()))
+        }
+        cat_sony.setOnClickListener {
+            setFragment(FragmentBrand("Sony", ModelProductBrand()))
+        }
+        cat_xiami.setOnClickListener {
+            setFragment(FragmentBrand("Xiami", ModelProductBrand()))
+        }
+        cat_huawei.setOnClickListener {
+            setFragment(FragmentBrand("Huawei", ModelProductBrand()))
+        }
+        cat_honor.setOnClickListener {
+            setFragment(FragmentBrand("Honor", ModelProductBrand()))
+        }
+        cat_oppo.setOnClickListener {
+            setFragment(FragmentBrand("Oppo", ModelProductBrand()))
+        }
+        cat_nokia.setOnClickListener {
+            setFragment(FragmentBrand("Nokia", ModelProductBrand()))
+        }
     }
 
     private fun initClickCategory(){
