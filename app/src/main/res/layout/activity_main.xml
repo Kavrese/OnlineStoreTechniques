@@ -104,62 +104,13 @@
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/lin_brend"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <include
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    layout="@layout/lin_brands"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/lin_hot_items"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:paddingLeft="10dp"
-                    android:text="Trending"
-                    android:textColor="?attr/colorMainText"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/rec_hot"
-                    android:layout_width="match_parent"
-                    android:layout_height="390dp"
-                    android:layout_marginTop="5dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/lin_category"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical">
-
-                <include
-                    layout="@layout/lin_category"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
             <FrameLayout
-                android:id="@+id/frame"
+                android:id="@+id/frame_main"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
             </FrameLayout>
+
         </LinearLayout>
     </ScrollView>
 
