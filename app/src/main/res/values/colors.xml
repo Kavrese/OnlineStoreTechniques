@@ -4,7 +4,8 @@
     <color name="colorBackItem">#FFF</color>
     <color name="colorMainText">#15181E</color>
     <color name="colorSecondText">#ADADAD</color>
-    <color name="colorAccent">#00A3FF</color>
+    <color name="colorGrey">#E4E4E4</color>
+    <color name="colorAccent">#335DB7</color>
     <color name="colorAccent2">#000</color>
     <color name="colorAlpha">#00000000</color>
 
